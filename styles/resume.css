@@ -1,0 +1,13 @@
+body{
+	width: 70%;
+	margin: auto;
+	border:solid;
+	padding: 5%;
+}
+.dates {
+	align-content: right;
+	text-align: right;
+	float: right;
+	font-size: 90%;
+}
+
