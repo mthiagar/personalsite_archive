@@ -10,13 +10,18 @@ h1{
 	font-family: Hanken;
 	color: white;
 	padding-top: 30px;
+	width: 50%;
+	margin: 0 auto;
 }
 p{
 	text-align: center;
 	color: white
 }
 
-
+.contact{
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
 .dates {
 	align-content: right;
