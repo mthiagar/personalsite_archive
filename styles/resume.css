@@ -1,9 +1,23 @@
 body{
-	width: 50%;
 	margin: auto;
 	border:solid;
-	padding: 5%;
+	background-color: #37474f;
+	font-family: Noto Sans;
 }
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Hanken;
+	color: white;
+	padding-top: 30px;
+}
+p{
+	text-align: center;
+	color: white
+}
+
+
+
 .dates {
 	align-content: right;
 	text-align: right;
@@ -11,3 +25,25 @@ body{
 	font-size: 90%;
 }
 
+#contact_info{
+	background-color: #607d8b;
+	color: white;
+	padding: 1px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	height: 100%;
+	font-weight: 700;
+	color:steelblue;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+	outline: none;
+
+}
+
+#main_content{
+	width: 50%;
+	margin: 4px auto;
+	color: black;
+	background-color: #d6d6d6;
+ 	padding: 1%;
