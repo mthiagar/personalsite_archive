@@ -1,7 +1,7 @@
 body{
 	margin: auto;
 	border:solid;
-	background-color: #37474f;
+	background-color:#234a56 ;
 	font-family: Noto Sans;
 }
 h1{
@@ -12,7 +12,13 @@ h1{
 	padding-top: 30px;
 	width: 50%;
 	margin: 0 auto;
+	background-color: 
 }
+
+#pro_titles{
+	font-size: 50%;
+}
+
 p{
 	text-align: center;
 	color: white
@@ -20,7 +26,7 @@ p{
 
 .contact{
 	padding-left: 40px;
-	padding-right: 40px;
+	padding-right: 40px
 }
 
 .dates {
@@ -31,24 +37,22 @@ p{
 }
 
 #contact_info{
-	background-color: #607d8b;
-	color: white;
+	background: #417d95;
 	padding: 1px;
+	border-bottom: 2px solid #d6d6d6;
 	margin: 0px;
-	color: white;
 	text-align: center;
 	height: 100%;
 	font-weight: 700;
-	color:steelblue;
 	letter-spacing: 1px;
-	transition: all 0.5s;
 	outline: none;
-
 }
 
 #main_content{
 	width: 50%;
 	margin: 4px auto;
+	margin-top: 10px;
 	color: black;
-	background-color: #d6d6d6;
+	background-color: #dde7dc;
  	padding: 1%;
+}
