@@ -1,0 +1,36 @@
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+.page {
+	min-height:100%;
+	margin: auto;
+	background-color: black;
+	color:darkgrey;
+}
+
+#splash {
+	text-align: center;
+	padding: 10%;
+	margin: auto;
+	text-decoration-color: white;
+	font-family: 'Libre+Franklin';
+	font-size: 1.5em; 
+}
+
+#splash h1{
+	font-family: 'Audiowide';
+	font-size: 4em;
+}
+
+#announcements {
+	border: darkgrey solid .25px;
+	padding: 10px;
+}
+
+#page1 {
+	padding: 10px;
+	text-decoration-color: black: 
+	background-color: white;
+}

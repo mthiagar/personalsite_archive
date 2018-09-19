@@ -1,80 +1,155 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Madhuran Thiagarajah Resume</title>
-	<link rel="stylesheet" type="text/css" href="styles/resume.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-</head>
-<body>
-	<div class=header>
-		<h1>Madhuran Thiagarajah <span id=pro_titles>BSc. MLT</span></h1>
-		<p>Genetics and Molecular Laboratory Professional, Data Science Enthusiest</p>
-		<div id=contact_info>
-			<p>
-				<span class=contact> <i class="fas fa-phone-square"></i> 647-767-9903 </span> |
-				<span class=contact> <i class="far fa-envelope"></i> mthiagar@uwaterloo.ca </span> |
-				<span class=contact> <i class="fab fa-linkedin-in"></i><a href="https://ca.linkedin.com/in/madhuran-thiagarajah-15496733"> LinkedIn</a> </span> |
-				<span class=contact> <i class="fab fa-github"></i><a href="https://github.com/mthiagar"> GitHub</a> </span>
-			</p>
+	<head>
+		<title>Madhuran Thiagarajah</title>
+		        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+				<link href="https://fonts.googleapis.com/css?family=Audiowide|Libre+Franklin" rel="stylesheet"> 
+		        <link rel="stylesheet" href="styles/index.css">
+	</head>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <a class="navbar-brand" href="#">MT</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link smooth" href="#home">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link smooth" href="#about">About</a>
+		      </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="https://mthiagar.github.io/">CV</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Portfolio</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#portfolio">OurView</a>
+		          <a class="dropdown-item" href="#portfolio">Genomics Project</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item smooth" href="#portfolio">All Projects</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link disabled" href="#blog">Blog</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	<body>
+		<section class="page" id="Announcements">
+			<div id=splash>
+				<img src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+				<h1>MT</h1>
+				<p>Healthcare. Genetics. Technology.</p>
+			</div>
+			<div id="announcements" class='container'>
+				<h5>Under Construction</h5>
+				<p><strong>September 8, 2018</strong></p>
+				<p>Please note, this site is still under construction</p>
+			</div>
+		</section>
+
+		<div class="page" id="page1">
+			<div class='container'>
+			  	<a id="about" class="smooth"></a>
+			    <h2>About Me</h2>
+				<p>I'm currently a student studying Health Informatics at the University of Waterloo. Prior to that, I spent for 3 years as a genetics tech as part of an amazing team doing genetic testing at the Princess Margaret Cancer Center. Since then, I've taken an interest in the healthcare system more generally and hope play a role in improving it in the years to come. That being said, my expertise is largely inline with my interests: medical lab genetics, genome and cancer informatics, cancer biology, health systems and biomedical data analysis. </p>
+				<h2>Philosophy of Life / Motivation</h2>
+				<p>As far as what motivates me it's essentially this: We are all members of spaceship Earth and we all have role to play in the future of humanity in the Universe. For some, life is over when death takes us. But, the way I think of it we are all one and we all contribute to and are apart of the collective whole, humanity. There is no difference between me and the next person, and we all must contribute to one another's well being so as to maximize our civilization's ability to progress. To that end, it's love, truth, beauty, and progress towards a better future which serve as my main motivators in life.</p>
+				<p>Aside from that I like to think I'm a pretty friendly, open-minded person and I like meeting people and enjoy having discussions. If your curious about me, what I do, or are interested in working on something with me feel free to get in touch! </p>
+			</div>
 		</div>
-	</div>
-	<div id=main_content>
-		<div class=category_content>
-			<h2><i class="fas fa-briefcase"></i>  Employment</h2>
-			<h3 class= title>University Health Network <span class=dates>2015 - Current</h3>
-			<h4>Genetics Technologist</h4>
-			<ul>
-				<li>Lab information system implementation and testing</li>
-				<li>Perform analysis on genetic testing results</li>
-				<li>Perform routine genetics testing procedures</li>
-				<li>Visualization and statistical analysis of patient results</li>
-				<li>Wrote scripts to automate repetitive tasks</li>
-			</ul>
+
+		<div class="page" id="page2">
+			<div class='container'>
+			 	 <a id="portfolio" class="smooth"></a>
+			  	<h2>Portfolio</h2>
+			    <p> See <a href='https://github.com/mthiagar'>Github </a> for what I'm working on. </p>
+			    <h5>StayinAlive</h5>
+			    <ul>
+			 		<li>Project was made as part of Hack The North 2018</li>
+			 		<li>Created analysis tool to indentify statistically significant SNPs for associated with outcomes involving time to event data (ie. adverse drug reactions).</li>
+			 		<li>My role involved developing the visualization tool to visualization the data. This included interactive Kapalan-Meier plots. </li>
+			 		<li>Tools: Python3 with Bokeh, Lifelines, and Pandas libraries. </li>
+			 		<li>Worked with <a href='https://www.linkedin.com/in/aleksejs-sazonovs-a56bab23/'>Aleksejs Sazonovs</a> and David Sang. </li>
+			 	</ul>
+				<h5>Personal Website</h5>
+				<ul>
+					<li>Your looking at it :) </li>
+					<li>Tools: HTML, CSS, JS, Bootstrap </li>
+				</ul>
+				<h5>OurView</h5>
+				<ul>
+					<li>Final Project for course: PHS614 - IT for Health Professionals</li>
+					<li>Prototype of a web application to allow Caregivers access to health records of patients</li>
+					<li>Allows for very granular permissioning of health records</li>
+					<li>As this was a general prototype, only front-end components were added, back-end logic remains incomplete</li>
+					<li>Tools: HTML, CSS, JS, Bootstrap</li>
+					<li>Worked with Iris Chan, and Harmjot Kaur
+				</ul>
+				</div>
+
+
+			</div>
+
 		</div>
-		<div class=category_content>
-			<h2>Student Positions/ Internship</h2>
-			<h3 class= title>Mount Sinai Health System <span class=dates>2014-2015</h3>
-			<h4>Student Genetics Technologist</h4>
-			<ul>
-				<li>Performed routine Molecular and Cytogenetic techniques </li>
-				<li>Took part in various continuing education activities (attended rounds, seminars, lectures etc.)</li>
-				<li>Learned genetics data analysis work for NGS data</li>
-				<li>Worked on method and validation for automated fixed parafin embedded tissue extraction</li>
-			</ul>
-			<h3 class= title>University Health Network <span class=dates>2014</h3>
-			<h4>Student Cancer Cytogenetics Technologist</h4>
-			<ul>
-				<li>Performed routine Cytogenetic techniques </li>
-				<li>Took part in various continuing education activities (attended rounds, seminars, lectures etc.)</li>
-				<li>Analyzed bone marrow karyotypes</li>
-				<li>Presented and participated in journal club</li>
-			</ul>
+
+		<div class="page" id="page3">
+			<div class='container'>
+		  <a id="contact" class="smooth"></a>
+		  	<h2> Contact </h2>
+		    E-mail: mthiagar@uwaterloo.ca
+		    PGP
+			</div>
 		</div>
-		<div class=category_content>
-			<h2><i class="fas fa-graduation-cap"></i>  Education</h2>
-			<h3 class= title>University of Waterloo <span class=dates>2017 - Current</span></h3>
-			<h4>Master of Health Informatics (MHI)</h4> 
-			<h3 class= title>The Michener Institute <span class=dates>2013 - 2015</h3>
-			<h4>Post Graduate Diploma - Genetics Technology</h4>
-			<h3 class= title>University of Waterloo <span class=dates>2009 - 2013</h3>
-			<h4>Bachelor of Science (BSc) - Biomedical Science</h4>
-		</div>
-		<h3 class = title><i class="fas fa-book"></i></i>  Autodidactic/Self-Directed Courses</h3>
-		<ul>
-			<li>Colt Steel's Web Developer Bootcamp</li>
-			<li><a href="https://s3.amazonaws.com/verify.edx.org/downloads/8cdd70a44c2c47e9ac8fb1c26b8fda77/Certificate.pdf">MITx - 6.00.1x: Introduction to Computer Science and Programming Using Python</li>
-			<li><a href="https://courses.edx.org/certificates/e5bd22798463419eb30f15b13552d6e8">MITx - 6.00.2x: Introduction to Computational Thinking and Data Science</li>
-			<li><a href="https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/975821~3902450/pdf"> Coursera: Data Analysis and Statistical Inference</a></li>
-			<li><a href="https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972706~3902450/pdf">Statistical Reasoning for Public Health 1: Estimation, Inference, & Interpretation</a></li>
-		</ul>
-		<h2>Projects/Personal</h2>
-		<h2>Skills</h2>
-		<ul>
-			<li>R programming language</li>
-			<li>Python</li>
-			<li>HTML, CSS, Javascript</li>
-			<li>Database design, SQL, mySQL</li>
-		</ul>
-	</div>
-</body>
+
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4..13/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://raw.githubusercontent.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.min.js"></script>
+	
+	<script>
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  })
+;	</script>
 </html>
+
