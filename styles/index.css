@@ -3,10 +3,15 @@ html, body {
             margin: 0;
         }
 
-.page {
+
+.page{
+	min-height: 100%;
+	margin: auto; 
+}
+#Announcements {
 	min-height:100%;
 	margin: auto;
-	background-color: black;
+	background: radial-gradient(#494949, #000000);
 	color:darkgrey;
 }
 
@@ -15,22 +20,31 @@ html, body {
 	padding: 10%;
 	margin: auto;
 	text-decoration-color: white;
-	font-family: 'Libre+Franklin';
+	font-family: 'Muli';
 	font-size: 1.5em; 
+	text-shadow: black 1px 4px 15px;
 }
 
-#splash h1{
-	font-family: 'Audiowide';
-	font-size: 4em;
+#splash h2{
+	font-family: 'Muli';
+	font-size: 2em;
+	text-shadow: black 1px 4px 5px;
+}
+
+#splash i{
+	padding-left: 12px;
+	color: grey;
 }
 
 #announcements {
 	border: darkgrey solid .25px;
 	padding: 10px;
+	background: black;
 }
 
-#page1 {
-	padding: 10px;
+[id^='page']{
+	padding: 100px 0;
 	text-decoration-color: black: 
 	background-color: white;
 }
+
